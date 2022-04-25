@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    font-family: Raleway;
+}
+
+body{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+i{
+    color:#ffffff;
+}
+
+a.logo{
+    color: #ffffff;
+    margin-left: 1em;
+    text-decoration: none;
+    font-size: 3em;
+    font-weight: 700;
+}
+
+em{
+    display: inline-block;
+    transform: rotate(-30deg);
+    color:#ffffff;
+    font-size: 0.5em;
+}
+
+nav {
+    display: flex;
+    justify-content: end;
+    flex-wrap: wrap;
+}
+
+nav a{
+    color: #ffffff;
+    margin-right: 3em;
+    text-decoration: none;
+}
+
+h1{
+    text-align: center;
+    margin: 2em;
+}
+
+.title h1{
+    font-size: 2.5em;
+}
+ 
+div img{
+    width: 100%;
+}
+
+.card{
+    padding: 0 3em 0 3em;
+    margin: 5em auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.card_element .element1{
+    width: 90%;
+    padding: 0 1.5em;
+    font-size: 0.03 em;
+}
+
+p.element1{
+    font-size: 0.8em;
+    line-height: 1.5em;
+    letter-spacing: 0.1em;
+}
+
+.card_element img{
+    width: 110%;
+    height: auto;
+}
+
+.caracteristicas{
+    background-color: #1e1a13;
+    text-align: center;
+    width: 100%;
+    padding: 5em;
+}
+
+.caracteristicas h2{
+    font-size: 2em;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 3em;
+}
+
+.icons i{
+    padding: 0 2.5em 0 2.5em;
+}
+
+.icons i p{
+    padding-top: 1em;
+}
+
+.slider{
+    max-width: 90%;
+    height: max-content;
+    margin: 4em 1em;
+    padding-left: 2.4em;
+}
+
+article img{
+    display: flexbox;
+    width: 33%;
+    padding: 0.5em;
+}
+
+footer{
+    background-color: #1e1a13;
+    text-align: center;
+    padding: 1.7em 0;
+}
+
+span{
+    font-weight: 700;
+    text-decoration: underline;
+    text-emphasis:inherit;
+}
