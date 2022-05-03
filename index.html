@@ -22,12 +22,66 @@
     <header>
         <div class="logo" id="logo">
             <a href="#" class="logo" id="iguana">IGUANA<em>Page</em></a>
+
+            <nav class="menu" id="logo">
+                <a href="#" class="menu_element">Home</a>
+                <a href="#" class="menu_element">Nosotros</a>
+                <a href="#" class="menu_element">Contacto</a>
+            </nav>
+
+            <div class="redes" id="redes">
+                <a href="#">
+                    <i class="fa-brands fa-facebook fa-0.7x"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-whatsapp fa-0.7x"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-instagram fa-0.7x"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-youtube fa-0.7x"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-solid fa-reply"></i>
+                </a>
+
+            </div>
+
         </div>
-        <nav class="menu" id="logo">
-            <a href="#" class="menu_element">Home</a>
-            <a href="#" class="menu_element">Nosotros</a>
-            <a href="#" class="menu_element">Contacto</a>
-        </nav>
+
+        <div class="menu-movil" id="menu-movil">
+            <a href="#" class="logo_movil" id="iguana">IGUANA<em>Page</em></a>
+
+            <div class="burger-menu" id="burger_menu">
+                <i class="fa-solid fa-xmarks-lines"></i>
+            </div>
+
+            <div class="slideMenu" id="slideMenu">
+                <div class="redes" id="redes">
+                    <a href="#">
+                        <i class="fa-brands fa-facebook fa-0.7x"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-whatsapp fa-0.7x"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-instagram fa-0.7x"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-youtube fa-0.7x"></i>
+                    </a>
+
+                </div>
+
+                <nav class="links-movil" id="logo">
+                    <a href="#" class="menu_element">Home</a>
+                    <a href="#card" class="menu_element">Nosotros</a>
+                    <a href="#caracteristicas" class="menu_element">Contacto</a>
+                </nav>
+            </div>
+        </div>
+
     </header>
     <!-- Fin Encabezado y Menu -->
     <!-- Inicio Hero Section -->
@@ -63,22 +117,28 @@
             <h2 class="title_char" id="title_char">CARACTERISTICAS</h2>
             <div class="icons" id="icons">
                 <i class="fa-solid far fa-eye fa-xl">
-                    <p>Tercer Ojo</p>
+                    <p class="text_icon">Tercer Ojo</p>
                 </i>
                 <i class="fa-solid fab fa-hand-peace  fa-xl">
-                    <p>Pacíficas</p>
+                    <p class="text_icon">Pacíficas</p>
                 </i>
                 <i class="fa-solid fas fa-paint-brush  fa-xl">
-                    <p>Cambian de color</p>
+                    <p class="text_icon">Cambian de color</p>
                 </i>
             </div>
         </article>
         <!-- FIn Caracteristicas -->
         <!-- Inicio Seccion fotos -->
         <article class="slider" id="slider">
-            <img src="./assets/img/iguana-2.jpg" alt="" srcset="" height="210px">
-            <img src="./assets/img/iguana-3.jpg" alt="" srcset="" height="213px">
-            <img src="./assets/img/iguana-4.jpg" alt="" srcset="" height="212px">
+            <div class="slider_element" id="slider_element">
+                <img src="./assets/img/iguana-2.jpg" alt="" srcset="" height="210px">
+            </div>
+            <div class="slider_element" id="slider_element">
+                <img src="./assets/img/iguana-3.jpg" alt="" srcset="" height="210px">
+            </div>
+            <div class="slider_element" id="slider_element">
+                <img src="./assets/img/iguana-4.jpg" alt="" srcset="" height="210px">
+            </div>
         </article>
         <!-- Fin Seccion fotos -->
     </main>
@@ -88,6 +148,7 @@
         <p>Todos los derechos reservados 2022</p>
     </footer>
 
+    <script src="./assets/js/menu_burger.js"></script>
 </body>
 
 </html>
