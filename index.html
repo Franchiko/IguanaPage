@@ -25,8 +25,8 @@
 
             <nav class="menu" id="logo">
                 <a href="#" class="menu_element">Home</a>
-                <a href="#" class="menu_element">Nosotros</a>
-                <a href="#" class="menu_element">Contacto</a>
+                <a href="#card_element" class="menu_element">Tarjeta</a>
+                <a href="#caracteristica" class="menu_element">Caracteristicas</a>
             </nav>
 
             <div class="redes" id="redes">
@@ -76,8 +76,8 @@
 
                 <nav class="links-movil" id="logo">
                     <a href="#" class="menu_element">Home</a>
-                    <a href="#card" class="menu_element">Nosotros</a>
-                    <a href="#caracteristicas" class="menu_element">Contacto</a>
+                    <a href="#card_element" class="menu_element">Tarjeta</a>
+                    <a href="#caracteristica" class="menu_element">Caracteristicas</a>
                 </nav>
             </div>
         </div>
@@ -92,12 +92,16 @@
             </div>
             <div class="image" id="image">
                 <img src="./assets/img/bg-header.jpg" alt="" srcset="">
+                <div class="overlay">
+                    <i class="fa-solid fa-staff-aesculapius fa-5x"></i>
+                </div>
             </div>
         </section>
 
         <section class="carder" id="carder">
             <div class="card" id="card">
                 <div class="card_element" id="card_element">
+                    <h2 class="card_text" id="card-text">Tarjeta</h2>
                     <p class="element1" id="element1">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                         Fugiat in, sint mollitia culpa, natus laboriosam veniam quas animi optio repellat quasi
                         deserunt ipsam voluptates. Voluptatibus omnis laborum provident ab eligendi?</p>
@@ -116,13 +120,13 @@
         <article class="caracteristicas" id="caracteristica">
             <h2 class="title_char" id="title_char">CARACTERISTICAS</h2>
             <div class="icons" id="icons">
-                <i class="fa-solid far fa-eye fa-xl">
-                    <p class="text_icon">Tercer Ojo</p>
+                <i class="fa-solid far fa-eye fa-xl active">
+                    <p class="text_icon active">Tercer Ojo</p>
                 </i>
-                <i class="fa-solid fab fa-hand-peace  fa-xl">
+                <i class="fa-solid fab fa-hand-peace  fa-xl active">
                     <p class="text_icon">Pacíficas</p>
                 </i>
-                <i class="fa-solid fas fa-paint-brush  fa-xl">
+                <i class="fa-solid fas fa-paint-brush  fa-xl active">
                     <p class="text_icon">Cambian de color</p>
                 </i>
             </div>
@@ -133,7 +137,7 @@
             <div class="slider_element" id="slider_element">
                 <img src="./assets/img/iguana-2.jpg" alt="" srcset="" height="210px">
             </div>
-            <div class="slider_element" id="slider_element">
+            <div class="slider_element overlay" id="slider_element">
                 <img src="./assets/img/iguana-3.jpg" alt="" srcset="" height="210px">
             </div>
             <div class="slider_element" id="slider_element">
@@ -149,6 +153,7 @@
     </footer>
 
     <script src="./assets/js/menu_burger.js"></script>
+    <script src="./assets/js/lightbox.js"></script>
 </body>
 
 </html>
